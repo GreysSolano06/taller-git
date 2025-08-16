@@ -33,10 +33,12 @@ function ask() {
       rl.close();
       return;
     }
-    if (diff >= 30) console.log('Muy frío ❄️');
-    else if (diff >= 15) console.log('Frío 🧊');
-    else if (diff >= 6) console.log('Tibio 🌤️');
-    else console.log('Caliente 🔥');
+    if (diff >= 30) console.log('🥶 Súper congelado');
+    else if (diff >= 15) console.log('🧊 Frío como el hielo');
+    else if (diff >= 6) console.log('🌞 Calentando motores');
+    else console.log('🔥🔥 En llamas!');
+
+
 
     if (guess < target) console.log('Pista: el número es mayor.');
     else console.log('Pista: el número es menor.');
